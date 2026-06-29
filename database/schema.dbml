@@ -1,0 +1,89 @@
+Table customers {
+  customer_id varchar(32) [pk]
+  customer_unique_id varchar(32)
+  customer_zip_code_prefix int
+  customer_city varchar(100)
+  customer_state char(2)
+}
+
+Table products {
+  product_id varchar(32) [pk]
+  product_category_name varchar(100)
+  product_name_lenght int
+  product_description_lenght int
+  product_photos_qty int
+  product_weight_g int
+  product_length_cm int
+  product_height_cm int
+  product_width_cm int
+}
+
+Table sellers {
+  seller_id varchar(32) [pk]
+  seller_zip_code_prefix int
+  seller_city varchar(100)
+  seller_state char(2)
+}
+
+Table geolocation {
+  geolocation_id int [pk, increment]
+  geolocation_zip_code_prefix int
+  geolocation_lat decimal(10,7)
+  geolocation_lng decimal(10,7)
+  geolocation_city varchar(100)
+  geolocation_state char(2)
+}
+
+Table product_category_name_translation {
+  product_category_name varchar(100) [pk]
+  product_category_name_english varchar(100)
+}
+
+Table orders {
+  order_id varchar(32) [pk]
+  customer_id varchar(32)
+  order_status varchar(20)
+  order_purchase_timestamp timestamp
+  order_approved_at timestamp
+  order_delivered_carrier_date timestamp
+  order_delivered_customer_date timestamp
+  order_estimated_delivery_date timestamp
+}
+
+Table order_items {
+  order_id varchar(32) [pk]
+  order_item_id int [pk]
+  product_id varchar(32)
+  seller_id varchar(32)
+  shipping_limit_date timestamp
+  price decimal(10,2)
+  freight_value decimal(10,2)
+}
+
+Table order_payments {
+  order_id varchar(32) [pk]
+  payment_sequential int [pk]
+  payment_type varchar(20)
+  payment_installments int
+  payment_value decimal(10,2)
+}
+
+Table order_reviews {
+  review_id varchar(32) [pk]
+  order_id varchar(32)
+  review_score smallint
+  review_comment_title varchar(100)
+  review_comment_message text
+  review_creation_date timestamp
+  review_answer_timestamp timestamp
+}
+
+Ref: orders.customer_id > customers.customer_id
+
+Ref: order_items.order_id > orders.order_id
+Ref: order_items.product_id > products.product_id
+Ref: order_items.seller_id > sellers.seller_id
+
+Ref: order_payments.order_id > orders.order_id
+
+Ref: order_reviews.order_id > orders.order_id
