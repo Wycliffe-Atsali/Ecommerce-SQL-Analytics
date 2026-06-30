@@ -302,49 +302,58 @@ Stores payment information for each order placed on the Olist marketplace. This 
 
 ## Purpose
 
-Stores customer reviews submitted for orders on the Olist marketplace. The table records customer satisfaction through a numeric review score, optional written feedback, and timestamps indicating when the review was created and when it was answered.
+Stores customer reviews submitted after orders are completed. The table records customer satisfaction through review scores, optional written feedback, and timestamps associated with the review process.
 
 ## Primary Key
 
-* review_id
+- review_key (Surrogate Key)
+
+## Business Identifier
+
+- review_id
 
 ## Foreign Keys
 
-* order_id → orders.order_id
+- order_id → orders.order_id
 
 ## Relationships
 
-* Many reviews are associated with one order (according to the dataset structure).
-* Connected to the `orders` table through `order_id`.
+- Many review records reference one order.
+- Connected to the `orders` table through `order_id`.
 
 ## Important Columns
 
-| Column                  | Description                                        |
-| ----------------------- | -------------------------------------------------- |
-| review_id               | Unique identifier for each review.                 |
-| order_id                | References the order being reviewed.               |
-| review_score            | Customer rating on a scale from 1 to 5.            |
-| review_comment_title    | Optional title for the review.                     |
-| review_comment_message  | Optional detailed customer feedback.               |
-| review_creation_date    | Date the customer submitted the review.            |
-| review_answer_timestamp | Date and time the company responded to the review. |
+| Column | Description |
+|---------|-------------|
+| review_key | Surrogate key uniquely identifying each review record. |
+| review_id | Original review identifier from the source dataset. |
+| order_id | References the reviewed order. |
+| review_score | Customer rating from 1 to 5. |
+| review_comment_title | Optional review title. |
+| review_comment_message | Optional review text. |
+| review_creation_date | Date the review was created. |
+| review_answer_timestamp | Date and time the review received a response. |
 
 ## Design Decisions
 
-* `review_id` is used as the primary key because it uniquely identifies reviews in the observed dataset.
-* `order_id` is a foreign key that maintains referential integrity with the `orders` table.
-* `review_score` is stored as `SMALLINT` because only values between 1 and 5 are expected.
-* Review titles and messages are optional and therefore allow `NULL` values.
-* `TEXT` is used for review comments because customer feedback varies greatly in length.
+- A surrogate key (`review_key`) is used as the primary key because implementation revealed that `review_id` is not unique in the original dataset.
+- `review_id` is retained as a business identifier to preserve compatibility with the source data.
+- `order_id` is enforced as a foreign key to maintain referential integrity with the `orders` table.
+- `review_score` uses `SMALLINT` because valid values range from 1 to 5.
+- Review comments allow `NULL` values because many customers provide only a numeric rating.
+
+## Business Significance
+
+Customer reviews provide one of the strongest indicators of customer satisfaction. Combined with delivery, seller, and product information, this table enables analyses of service quality, delivery performance, and customer experience.
 
 ## Business Questions This Table Helps Answer
 
-* What is the average customer review score?
-* What percentage of reviews are positive (4–5 stars) versus negative (1–2 stars)?
-* Do late deliveries receive lower review scores?
-* Which sellers and product categories receive the highest customer ratings?
-* How quickly does the company respond to customer reviews?
-* Has customer satisfaction changed over time?
+- What is the average customer review score?
+- Which sellers consistently receive the highest ratings?
+- Do delivery delays influence customer satisfaction?
+- Which product categories receive the most positive reviews?
+- How has customer satisfaction changed over time?
+- What proportion of reviews contain written feedback?
 
 ---
 

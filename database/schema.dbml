@@ -69,13 +69,14 @@ Table order_payments {
 }
 
 Table order_reviews {
-  review_id varchar(32) [pk]
-  order_id varchar(32)
-  review_score smallint
-  review_comment_title varchar(100)
-  review_comment_message text
-  review_creation_date timestamp
-  review_answer_timestamp timestamp
+    review_key int [pk, increment]
+    review_id varchar
+    order_id varchar
+    review_score smallint
+    review_comment_title varchar
+    review_comment_message text
+    review_creation_date timestamp
+    review_answer_timestamp timestamp
 }
 
 Ref: orders.customer_id > customers.customer_id

@@ -102,19 +102,20 @@ CREATE TABLE order_payments (
 );
 
 CREATE TABLE order_reviews (
-    review_id VARCHAR(32) NOT NULL,
-    order_id VARCHAR(32) NOT NULL,
+    review_key INTEGER GENERATED ALWAYS AS IDENTITY,
+    review_id VARCHAR(50) NOT NULL,
+    order_id VARCHAR(50) NOT NULL,
     review_score SMALLINT NOT NULL,
-    review_comment_title TEXT,
+    review_comment_title VARCHAR(255),
     review_comment_message TEXT,
     review_creation_date TIMESTAMP NOT NULL,
     review_answer_timestamp TIMESTAMP NOT NULL,
 
     CONSTRAINT pk_order_reviews
-        PRIMARY KEY (review_id),
+        PRIMARY KEY (review_key),
 
     CONSTRAINT fk_order_reviews_orders
         FOREIGN KEY (order_id)
         REFERENCES orders(order_id)
-);
 
+);

@@ -230,3 +230,66 @@ Most importantly, this project demonstrates not only the ability to write SQL bu
 
 
 ---
+
+# Schema Evolution – order_reviews
+
+## Background
+
+The original schema used `review_id` as the primary key because it was assumed to uniquely identify each customer review.
+
+```sql
+PRIMARY KEY (review_id)
+```
+
+This design aligned with the available dataset documentation during the database design phase.
+
+---
+
+## Validation Findings
+
+During PostgreSQL implementation, importing the `order_reviews` dataset produced the following error:
+
+```
+ERROR: duplicate key value violates unique constraint "pk_order_reviews"
+```
+
+Further investigation revealed that:
+
+- Duplicate `review_id` values exist within the source dataset.
+- The duplicate review identifiers reference different `order_id` values.
+- These records are legitimate observations rather than accidental duplicate rows.
+
+This demonstrated that `review_id` is not guaranteed to be unique and therefore cannot reliably function as a primary key.
+
+---
+
+## Design Revision
+
+To preserve all source records while maintaining entity integrity, the table was redesigned by introducing a surrogate key.
+
+```sql
+review_key INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY
+```
+
+The original `review_id` was retained as a business identifier rather than a primary key.
+
+---
+
+## Rationale
+
+This revision reflects an important principle of database design:
+
+> Database schemas should accurately represent the characteristics of the underlying data rather than forcing the data to satisfy incorrect assumptions.
+
+Using a surrogate key allows every review record to be preserved while ensuring each row remains uniquely identifiable.
+
+---
+
+## Lessons Learned
+
+This implementation reinforced several practical database design principles:
+
+- Database design assumptions should always be validated against real data.
+- Source datasets do not always enforce uniqueness, even when documentation suggests they do.
+- Surrogate keys provide flexibility when natural keys cannot guarantee uniqueness.
+- Implementation and validation are essential components of the database design process.
