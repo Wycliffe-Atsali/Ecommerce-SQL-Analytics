@@ -1,46 +1,70 @@
-# Retail SQL Business Analysis
-
-A professional PostgreSQL portfolio project built using the Brazilian E-Commerce Public Dataset by Olist.
-
 ## Project Status
 
-🚧 Currently in development.
+🚧 Active Development
 
-### Completed
+### ✅ Completed
 
 - Database design
 - PostgreSQL schema implementation
-- Data import for all nine tables
-- Data validation
+- Import of all nine Olist datasets
+- Data validation and integrity checks
 - Entity Relationship Diagram (ERD)
 - Schema documentation
 - Schema refinement based on implementation findings
+- Phase 3 – Exploratory SQL Analysis
+  - Investigation 1 – Orders
+  - Investigation 2 – Customers
+  - Investigation 3 – Products
+  - Investigation 4 – Sellers
+  - Investigation 5 – Payments
+  - Investigation 6 – Reviews
+  - Investigation 7 – Geolocation
 
-### In Progress
+## Investigation Progress
 
-- Data quality assessment
-- Implementation documentation
+| Investigation | Status |
+|---------------|--------|
+| Investigation 1 – Orders | ✅ Complete |
+| Investigation 2 – Customers | ✅ Complete |
+| Investigation 3 – Products | ✅ Complete |
+| Investigation 4 – Sellers | ✅ Complete |
+| Investigation 5 – Payments | ✅ Complete |
+| Investigation 6 – Reviews | ✅ Complete |
+| Investigation 7 – Geolocation | ✅ Complete |
 
-### Upcoming
+## Exploratory SQL Highlights
 
-- Exploratory SQL analysis
-- Business analysis
-- Executive reporting
-- Business recommendations
-- Portfolio refinement
+During Phase 3, the database was explored through a series of business-focused investigations designed to validate data quality before performing analytical reporting.
 
----
+Key achievements include:
 
-## Schema Evolution
+- Validated all core business tables.
+- Verified primary and surrogate key behaviour.
+- Identified duplicate business identifiers requiring schema redesign.
+- Investigated missing values and data completeness.
+- Detected potential data quality anomalies.
+- Introduced grouped business summaries using `GROUP BY`.
+- Produced investigation reports documenting business objectives, SQL queries, findings, and analyst reflections.
 
-Although the initial database schema was carefully designed before implementation, one design assumption was refined after validating the imported data.
+This exploratory phase established a reliable analytical foundation for the business reporting performed in later phases.
 
-During the import of the `order_reviews` dataset, duplicate `review_id` values were discovered. Investigation confirmed that the duplicate review identifiers referenced different orders, meaning `review_id` could not reliably function as the table's primary key.
+### 🔄 Current Phase
 
-To preserve every source record while maintaining entity integrity, the schema was revised by introducing a surrogate key (`review_key`) as the primary key. The original `review_id` remains as a business identifier.
+**Phase 4 – Aggregate SQL Analysis**
 
-This demonstrates an iterative database design process in which implementation findings informed schema improvements rather than forcing the data to fit the original design.
+Upcoming topics:
 
----
+- GROUP BY (advanced applications)
+- HAVING
+- CASE expressions
+- Aggregate business reporting
 
-This repository documents the complete lifecycle of building a PostgreSQL analytics database—from schema design and implementation to validation, business analysis, and reporting.
+### 📅 Remaining Roadmap
+
+- Aggregate SQL Analysis
+- Table Joins
+- Subqueries & CTEs
+- Window Functions
+- Business Analytics
+- Executive Reporting
+- Portfolio Refinement
