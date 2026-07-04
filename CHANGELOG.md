@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.3.0] - 2026-07-04
+
+### Added
+
+- Completed Phase 3: Exploratory SQL Analysis.
+- Completed Phase 4: Aggregate SQL Analysis.
+- Added 13 business-focused SQL investigations.
+- Added investigation reports documenting business objectives, findings, and analyst reflections.
+- Introduced aggregate reporting using `GROUP BY`, `HAVING`, and `CASE`.
+- Added executive summary SQL queries for customer, seller, product, payment, and review analysis.
+
+### Changed
+
+- Updated README to reflect project progress and completed investigations.
+- Improved repository documentation with business-oriented SQL reporting.
+- Refined SQL scripts with consistent formatting and analyst commentary.
+
 ## [0.3.0] - 2026-07-03
 
 ### Added
