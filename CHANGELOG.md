@@ -4,6 +4,32 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.4.0] - 2026-07-22
+
+### Added
+
+- Completed Phase 5: Relational SQL Analysis.
+- Added Investigation 14 – Customer Purchasing Behaviour.
+- Added Investigation 15 – Product Sales Performance.
+- Added Investigation 16 – Seller Performance Analysis.
+- Added Investigation 17 – Customer Review & Satisfaction Analysis.
+- Added Investigation 18 – Delivery Performance Analysis.
+- Added Investigation 19 – Geographic Customer & Revenue Analysis.
+- Added Investigation 20 – Sales Trend & Time Series Analysis.
+- Added Investigation 21 – Payment Method & Customer Payment Behaviour.
+- Added Investigation 22 – Customer Retention & Repeat Purchase Analysis.
+- Added professionally documented SQL scripts and business intelligence reports for all Phase 5 investigations.
+- Introduced delivery performance metrics, customer segmentation, time-series analysis, customer retention analysis, geographic business analysis, multi-stage aggregation, and introductory window function techniques.
+
+### Changed
+
+- Updated README to reflect completion of Phase 5.
+- Expanded repository documentation with advanced relational SQL analysis.
+- Improved SQL scripts with consistent formatting, analyst observations, and business recommendations.
+- Strengthened the project's business-oriented analytical workflow through multi-table relational analysis.
+
+---
+
 ## [0.3.0] - 2026-07-04
 
 ### Added
@@ -21,20 +47,7 @@ All notable changes to this project will be documented in this file.
 - Improved repository documentation with business-oriented SQL reporting.
 - Refined SQL scripts with consistent formatting and analyst commentary.
 
-## [0.3.0] - 2026-07-03
-
-### Added
-
-- Completed Phase 3 – Exploratory SQL.
-- Added seven business-focused exploratory investigations.
-- Added investigation reports documenting business objectives, SQL queries, findings, and analyst reflections.
-- Introduced `GROUP BY` into the SQL learning progression.
-- Expanded `01_data_exploration.sql` with professionally documented exploratory analyses.
-
-### Changed
-
-- Updated README with completed investigation progress.
-- Refined project roadmap to reflect completion of Phase 3.
+---
 
 ## [0.2.0] - 2026-06-30
 
@@ -58,6 +71,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - Initial database design.
-- CREATE TABLE scripts.
-- Schema documentation.
-- ERD.
+- Created PostgreSQL schema.
+- Added CREATE TABLE scripts.
+- Added schema documentation.
+- Added Entity Relationship Diagram (ERD).

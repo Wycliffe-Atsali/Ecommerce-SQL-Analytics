@@ -33,6 +33,18 @@
 - Investigation 12 – Payment Behaviour Analysis
 - Investigation 13 – Customer Review Analysis
 
+#### Phase 5 – Relational SQL Analysis
+
+- Investigation 14 – Customer Purchasing Behaviour
+- Investigation 15 – Product Sales Performance
+- Investigation 16 – Seller Performance Analysis
+- Investigation 17 – Customer Review & Satisfaction Analysis
+- Investigation 18 – Delivery Performance Analysis
+- Investigation 19 – Geographic Customer & Revenue Analysis
+- Investigation 20 – Sales Trend & Time Series Analysis
+- Investigation 21 – Payment Method & Customer Payment Behaviour
+- Investigation 22 – Customer Retention & Repeat Purchase Analysis
+
 ---
 
 ## Investigation Progress
@@ -52,7 +64,15 @@
 | Phase 4 | Investigation 11 – Seller Aggregation | ✅ |
 | Phase 4 | Investigation 12 – Payment Behaviour Analysis | ✅ |
 | Phase 4 | Investigation 13 – Customer Review Analysis | ✅ |
-| Phase 5 | Relational Analysis with JOINs | 🚧 |
+| Phase 5 | Investigation 14 – Customer Purchasing Behaviour | ✅ |
+| Phase 5 | Investigation 15 – Product Sales Performance | ✅ |
+| Phase 5 | Investigation 16 – Seller Performance Analysis | ✅ |
+| Phase 5 | Investigation 17 – Customer Review & Satisfaction Analysis | ✅ |
+| Phase 5 | Investigation 18 – Delivery Performance Analysis | ✅ |
+| Phase 5 | Investigation 19 – Geographic Customer & Revenue Analysis | ✅ |
+| Phase 5 | Investigation 20 – Sales Trend & Time Series Analysis | ✅ |
+| Phase 5 | Investigation 21 – Payment Method & Customer Payment Behaviour | ✅ |
+| Phase 5 | Investigation 22 – Customer Retention & Repeat Purchase Analysis | ✅ |
 
 ---
 
@@ -82,6 +102,25 @@
 - `CASE`
 - Conditional aggregation
 
+### Relational Analysis
+
+- `INNER JOIN`
+- Multi-table joins
+- Relationship analysis
+- Revenue attribution
+- Customer segmentation
+- Multi-stage aggregation
+- Subqueries
+- Introductory window functions
+
+### Date & Time Analysis
+
+- Date arithmetic
+- `DATE_TRUNC()`
+- `TO_CHAR()`
+- Delivery time analysis
+- Time-series analysis
+
 ### Analytical Skills
 
 - Exploratory Data Analysis (EDA)
@@ -92,6 +131,11 @@
 - Seller analysis
 - Payment analysis
 - Customer review analysis
+- Delivery performance analysis
+- Geographic analysis
+- Customer retention analysis
+- Sales trend analysis
+- Business KPI development
 - Business reporting
 - Executive summary reporting
 
@@ -131,25 +175,51 @@ Major outcomes included:
 
 ---
 
+### Phase 5 – Relational SQL Analysis
+
+This phase focused on answering business questions by combining data across multiple related tables using SQL JOINs.
+
+Major outcomes included:
+
+- Built multi-table analytical queries using `INNER JOIN`.
+- Analysed customer purchasing behaviour and retention.
+- Measured product and seller performance.
+- Evaluated delivery efficiency and operational KPIs.
+- Investigated customer satisfaction through review analysis.
+- Performed geographic revenue analysis.
+- Built time-series reports using date functions.
+- Analysed customer payment behaviour and purchasing trends.
+- Introduced customer segmentation and multi-stage aggregation techniques.
+- Applied introductory window functions for analytical reporting.
+
+This phase strengthened business thinking by connecting transactional data across multiple entities to produce meaningful business intelligence.
+
+---
+
 ## 🔄 Current Phase
 
-**Phase 5 – Relational Analysis with SQL JOINs**
+**Phase 6 – Subqueries, Common Table Expressions (CTEs) & SQL Views**
 
 Upcoming topics include:
 
-- INNER JOIN
-- LEFT JOIN
-- RIGHT JOIN
-- FULL OUTER JOIN
-- SELF JOIN
-- Multi-table business analysis
+- Advanced Subqueries
+- Common Table Expressions (CTEs)
+- Recursive CTEs
+- SQL Views
+- Query optimization
+- Building reusable analytical queries
 
 ---
 
 ## 📅 Remaining Roadmap
 
-- Phase 5 – Relational Analysis with JOINs
-- Phase 6 – Subqueries, CTEs, and Views
+- ✅ Phase 1 – Database Design
+- ✅ Phase 2 – PostgreSQL Implementation
+- ✅ Phase 3 – Exploratory SQL Analysis
+- ✅ Phase 4 – Aggregate SQL Analysis
+- ✅ Phase 5 – Relational SQL Analysis
+
+- Phase 6 – Subqueries, CTEs & SQL Views
 - Phase 7 – Window Functions
 - Phase 8 – Advanced Business Analytics
 - Phase 9 – Executive Reporting & Business Recommendations
