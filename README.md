@@ -1,3 +1,9 @@
+# Retail SQL Business Analysis
+
+A comprehensive SQL portfolio project built using the Brazilian E-Commerce Public Dataset (Olist). The project demonstrates progressive SQL development from database design and exploratory analysis to advanced analytical techniques used in real-world business intelligence.
+
+---
+
 ## Project Status
 
 🚧 **Active Development**
@@ -45,12 +51,20 @@
 - Investigation 21 – Payment Method & Customer Payment Behaviour
 - Investigation 22 – Customer Retention & Repeat Purchase Analysis
 
+#### Phase 6 – Advanced SQL Techniques
+
+- Investigation 23 – Subqueries Business Analysis
+- Investigation 24 – Common Table Expressions (CTEs)
+- Investigation 25 – SQL Views
+- Investigation 26 – Multi-CTE Business Analysis
+- Investigation 27 – SQL Integration (Subqueries, CTEs & Views)
+
 ---
 
 ## Investigation Progress
 
 | Phase | Investigation | Status |
-|-------|---------------|:------:|
+|--------|---------------|--------|
 | Phase 3 | Investigation 1 – Orders | ✅ |
 | Phase 3 | Investigation 2 – Customers | ✅ |
 | Phase 3 | Investigation 3 – Products | ✅ |
@@ -73,6 +87,11 @@
 | Phase 5 | Investigation 20 – Sales Trend & Time Series Analysis | ✅ |
 | Phase 5 | Investigation 21 – Payment Method & Customer Payment Behaviour | ✅ |
 | Phase 5 | Investigation 22 – Customer Retention & Repeat Purchase Analysis | ✅ |
+| Phase 6 | Investigation 23 – Subqueries Business Analysis | ✅ |
+| Phase 6 | Investigation 24 – Common Table Expressions (CTEs) | ✅ |
+| Phase 6 | Investigation 25 – SQL Views | ✅ |
+| Phase 6 | Investigation 26 – Multi-CTE Business Analysis | ✅ |
+| Phase 6 | Investigation 27 – SQL Integration (Subqueries, CTEs & Views) | ✅ |
 
 ---
 
@@ -100,44 +119,53 @@
 - `GROUP BY`
 - `HAVING`
 - `CASE`
-- Conditional aggregation
+- Conditional Aggregation
 
 ### Relational Analysis
 
 - `INNER JOIN`
-- Multi-table joins
-- Relationship analysis
-- Revenue attribution
-- Customer segmentation
-- Multi-stage aggregation
-- Subqueries
-- Introductory window functions
+- Multi-table Joins
+- Relationship Analysis
+- Revenue Attribution
+- Customer Segmentation
+- Multi-stage Aggregation
+
+### Advanced SQL
+
+- Scalar Subqueries
+- Nested Subqueries
+- Common Table Expressions (CTEs)
+- Multiple CTE Workflows
+- SQL Views
+- Reusable Analytical Queries
+- Query Modularisation
+- Business KPI Development
 
 ### Date & Time Analysis
 
-- Date arithmetic
 - `DATE_TRUNC()`
 - `TO_CHAR()`
-- Delivery time analysis
-- Time-series analysis
+- Time-Series Analysis
+- Delivery Time Analysis
+- Revenue Trend Analysis
 
 ### Analytical Skills
 
 - Exploratory Data Analysis (EDA)
-- Data validation
-- Data quality assessment
-- Customer analysis
-- Product analysis
-- Seller analysis
-- Payment analysis
-- Customer review analysis
-- Delivery performance analysis
-- Geographic analysis
-- Customer retention analysis
-- Sales trend analysis
-- Business KPI development
-- Business reporting
-- Executive summary reporting
+- Data Validation
+- Data Quality Assessment
+- Customer Analysis
+- Product Analysis
+- Seller Analysis
+- Payment Analysis
+- Customer Review Analysis
+- Delivery Performance Analysis
+- Geographic Analysis
+- Customer Retention Analysis
+- Sales Trend Analysis
+- Business KPI Development
+- Business Reporting
+- Executive Summary Reporting
 
 ---
 
@@ -151,63 +179,73 @@ Major outcomes included:
 
 - Validated every core business table.
 - Verified primary, foreign, and surrogate key behaviour.
-- Identified duplicate business identifiers that required schema redesign.
+- Identified duplicate business identifiers requiring schema redesign.
 - Investigated missing values and data completeness.
 - Identified potential data quality issues.
-- Produced investigation reports containing business objectives, SQL queries, findings, business interpretations, and analyst reflections.
-
-This phase established a reliable analytical foundation for all subsequent reporting.
+- Produced professional investigation reports documenting SQL queries, findings, business interpretation, and analyst reflections.
 
 ---
 
 ### Phase 4 – Aggregate SQL Analysis
 
-This phase introduced SQL aggregation techniques used in professional business reporting.
+This phase introduced SQL aggregation techniques used in professional reporting.
 
 Major outcomes included:
 
 - Applied aggregate functions to answer business questions.
 - Built grouped analytical reports using `GROUP BY`.
-- Filtered grouped results with `HAVING`.
-- Introduced `CASE` expressions for business-oriented classifications.
-- Produced executive-style summary reports for customers, products, sellers, payments, and reviews.
-- Strengthened analytical thinking by focusing on business interpretation rather than SQL syntax alone.
+- Filtered grouped results using `HAVING`.
+- Introduced `CASE` expressions for business classifications.
+- Produced executive-style summary reports across multiple business domains.
 
 ---
 
 ### Phase 5 – Relational SQL Analysis
 
-This phase focused on answering business questions by combining data across multiple related tables using SQL JOINs.
+This phase focused on analysing relationships across multiple business entities using SQL JOINs.
 
 Major outcomes included:
 
-- Built multi-table analytical queries using `INNER JOIN`.
-- Analysed customer purchasing behaviour and retention.
-- Measured product and seller performance.
-- Evaluated delivery efficiency and operational KPIs.
-- Investigated customer satisfaction through review analysis.
-- Performed geographic revenue analysis.
-- Built time-series reports using date functions.
-- Analysed customer payment behaviour and purchasing trends.
-- Introduced customer segmentation and multi-stage aggregation techniques.
-- Applied introductory window functions for analytical reporting.
+- Developed multi-table analytical queries.
+- Analysed customer purchasing behaviour.
+- Evaluated seller and product performance.
+- Measured delivery efficiency.
+- Investigated customer satisfaction.
+- Performed geographic and time-series analysis.
+- Analysed payment behaviour and customer retention.
 
-This phase strengthened business thinking by connecting transactional data across multiple entities to produce meaningful business intelligence.
+---
+
+### Phase 6 – Advanced SQL Techniques
+
+This phase introduced modular and reusable SQL development techniques.
+
+Major outcomes included:
+
+- Mastered scalar and nested Subqueries.
+- Built reusable Common Table Expressions (CTEs).
+- Developed multi-stage analytical workflows using multiple CTEs.
+- Created reusable SQL Views for business reporting.
+- Combined Subqueries, CTEs and Views into integrated analytical solutions.
+- Improved SQL readability, maintainability and reusability through modular query design.
 
 ---
 
 ## 🔄 Current Phase
 
-**Phase 6 – Subqueries, Common Table Expressions (CTEs) & SQL Views**
+**Phase 7 – SQL Window Functions**
 
 Upcoming topics include:
 
-- Advanced Subqueries
-- Common Table Expressions (CTEs)
-- Recursive CTEs
-- SQL Views
-- Query optimization
-- Building reusable analytical queries
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- NTILE()
+- LEAD()
+- LAG()
+- Running Totals
+- Moving Averages
+- Advanced Business Analytics
 
 ---
 
@@ -218,9 +256,8 @@ Upcoming topics include:
 - ✅ Phase 3 – Exploratory SQL Analysis
 - ✅ Phase 4 – Aggregate SQL Analysis
 - ✅ Phase 5 – Relational SQL Analysis
-
-- Phase 6 – Subqueries, CTEs & SQL Views
-- Phase 7 – Window Functions
+- ✅ Phase 6 – Advanced SQL Techniques
+- 🚧 Phase 7 – Window Functions
 - Phase 8 – Advanced Business Analytics
 - Phase 9 – Executive Reporting & Business Recommendations
 - Phase 10 – Portfolio Refinement & Interview Preparation

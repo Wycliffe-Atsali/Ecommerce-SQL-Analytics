@@ -4,6 +4,30 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.5.0] - 2026-07-27
+
+### Added
+
+- Completed Phase 6: Advanced SQL Techniques.
+- Added Investigation 23 – Subqueries Business Analysis.
+- Added Investigation 24 – Common Table Expressions (CTEs).
+- Added Investigation 25 – SQL Views.
+- Added Investigation 26 – Multi-CTE Business Analysis.
+- Added Investigation 27 – SQL Integration (Subqueries, CTEs & Views).
+- Added professionally documented SQL scripts for all Phase 6 investigations.
+- Added business intelligence reports documenting objectives, SQL queries, findings, business interpretations, analyst reflections, and recommendations.
+- Introduced reusable analytical workflows using Common Table Expressions and SQL Views.
+- Demonstrated modular SQL development through integrated use of Subqueries, CTEs and Views.
+
+### Changed
+
+- Updated README to reflect completion of Phase 6.
+- Expanded repository documentation with advanced SQL concepts and reusable analytical workflows.
+- Improved SQL scripts with consistent formatting, modular design and business-focused commentary.
+- Strengthened the project's analytical methodology by introducing reusable SQL components suitable for production reporting.
+
+---
+
 ## [0.4.0] - 2026-07-22
 
 ### Added
@@ -19,13 +43,13 @@ All notable changes to this project will be documented in this file.
 - Added Investigation 21 – Payment Method & Customer Payment Behaviour.
 - Added Investigation 22 – Customer Retention & Repeat Purchase Analysis.
 - Added professionally documented SQL scripts and business intelligence reports for all Phase 5 investigations.
-- Introduced delivery performance metrics, customer segmentation, time-series analysis, customer retention analysis, geographic business analysis, multi-stage aggregation, and introductory window function techniques.
+- Introduced delivery performance metrics, customer segmentation, time-series analysis, customer retention analysis, geographic business analysis and multi-stage aggregation.
 
 ### Changed
 
 - Updated README to reflect completion of Phase 5.
 - Expanded repository documentation with advanced relational SQL analysis.
-- Improved SQL scripts with consistent formatting, analyst observations, and business recommendations.
+- Improved SQL scripts with consistent formatting, analyst observations and business recommendations.
 - Strengthened the project's business-oriented analytical workflow through multi-table relational analysis.
 
 ---
@@ -37,9 +61,9 @@ All notable changes to this project will be documented in this file.
 - Completed Phase 3: Exploratory SQL Analysis.
 - Completed Phase 4: Aggregate SQL Analysis.
 - Added 13 business-focused SQL investigations.
-- Added investigation reports documenting business objectives, findings, and analyst reflections.
-- Introduced aggregate reporting using `GROUP BY`, `HAVING`, and `CASE`.
-- Added executive summary SQL queries for customer, seller, product, payment, and review analysis.
+- Added investigation reports documenting business objectives, findings and analyst reflections.
+- Introduced aggregate reporting using `GROUP BY`, `HAVING` and `CASE`.
+- Added executive summary SQL queries for customer, seller, product, payment and review analysis.
 
 ### Changed
 
