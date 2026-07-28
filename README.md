@@ -1,6 +1,8 @@
 # Retail SQL Business Analysis
 
-A comprehensive SQL portfolio project built using the Brazilian E-Commerce Public Dataset (Olist). The project demonstrates progressive SQL development from database design and exploratory analysis to advanced analytical techniques used in real-world business intelligence.
+A comprehensive SQL portfolio project built using the **Brazilian E-Commerce Public Dataset (Olist)**. This project demonstrates progressive SQL development from database implementation and exploratory analysis to advanced analytical techniques used in real-world business intelligence.
+
+The repository currently contains **33 completed business investigations**, each consisting of a professionally documented SQL script and a detailed business investigation report. Together, these investigations showcase the progression from foundational SQL concepts to advanced analytical techniques commonly used by Data Analysts and Business Intelligence professionals.
 
 ---
 
@@ -59,12 +61,21 @@ A comprehensive SQL portfolio project built using the Brazilian E-Commerce Publi
 - Investigation 26 – Multi-CTE Business Analysis
 - Investigation 27 – SQL Integration (Subqueries, CTEs & Views)
 
+#### Phase 7 – SQL Window Functions
+
+- Investigation 28 – ROW_NUMBER() Business Analysis
+- Investigation 29 – RANK() & DENSE_RANK() Business Analysis
+- Investigation 30 – NTILE() Business Segmentation
+- Investigation 31 – LAG() Business Analysis
+- Investigation 32 – LEAD() Business Analysis
+- Investigation 33 – Window Aggregation (FIRST_VALUE(), LAST_VALUE(), Running Totals & Moving Averages)
+
 ---
 
 ## Investigation Progress
 
 | Phase | Investigation | Status |
-|--------|---------------|--------|
+|-------|---------------|:------:|
 | Phase 3 | Investigation 1 – Orders | ✅ |
 | Phase 3 | Investigation 2 – Customers | ✅ |
 | Phase 3 | Investigation 3 – Products | ✅ |
@@ -92,6 +103,12 @@ A comprehensive SQL portfolio project built using the Brazilian E-Commerce Publi
 | Phase 6 | Investigation 25 – SQL Views | ✅ |
 | Phase 6 | Investigation 26 – Multi-CTE Business Analysis | ✅ |
 | Phase 6 | Investigation 27 – SQL Integration (Subqueries, CTEs & Views) | ✅ |
+| Phase 7 | Investigation 28 – ROW_NUMBER() Business Analysis | ✅ |
+| Phase 7 | Investigation 29 – RANK() & DENSE_RANK() Business Analysis | ✅ |
+| Phase 7 | Investigation 30 – NTILE() Business Segmentation | ✅ |
+| Phase 7 | Investigation 31 – LAG() Business Analysis | ✅ |
+| Phase 7 | Investigation 32 – LEAD() Business Analysis | ✅ |
+| Phase 7 | Investigation 33 – Window Aggregation Business Analysis | ✅ |
 
 ---
 
@@ -141,6 +158,22 @@ A comprehensive SQL portfolio project built using the Brazilian E-Commerce Publi
 - Query Modularisation
 - Business KPI Development
 
+### Window Functions
+
+- `ROW_NUMBER()`
+- `RANK()`
+- `DENSE_RANK()`
+- `NTILE()`
+- `LAG()`
+- `LEAD()`
+- `FIRST_VALUE()`
+- `LAST_VALUE()`
+- Running Totals
+- Moving Averages
+- Window Frames
+- `PARTITION BY`
+- `OVER()`
+
 ### Date & Time Analysis
 
 - `DATE_TRUNC()`
@@ -166,6 +199,9 @@ A comprehensive SQL portfolio project built using the Brazilian E-Commerce Publi
 - Business KPI Development
 - Business Reporting
 - Executive Summary Reporting
+- Customer Journey Analysis
+- Trend Analysis
+- Business Segmentation
 
 ---
 
@@ -178,11 +214,11 @@ This phase focused on understanding the dataset before performing business analy
 Major outcomes included:
 
 - Validated every core business table.
-- Verified primary, foreign, and surrogate key behaviour.
+- Verified primary, foreign and surrogate key behaviour.
 - Identified duplicate business identifiers requiring schema redesign.
 - Investigated missing values and data completeness.
 - Identified potential data quality issues.
-- Produced professional investigation reports documenting SQL queries, findings, business interpretation, and analyst reflections.
+- Produced professional investigation reports documenting SQL queries, findings, business interpretation and analyst reflections.
 
 ---
 
@@ -202,7 +238,7 @@ Major outcomes included:
 
 ### Phase 5 – Relational SQL Analysis
 
-This phase focused on analysing relationships across multiple business entities using SQL JOINs.
+This phase focused on analysing relationships across multiple business entities using SQL joins.
 
 Major outcomes included:
 
@@ -222,30 +258,45 @@ This phase introduced modular and reusable SQL development techniques.
 
 Major outcomes included:
 
-- Mastered scalar and nested Subqueries.
+- Mastered scalar and nested subqueries.
 - Built reusable Common Table Expressions (CTEs).
 - Developed multi-stage analytical workflows using multiple CTEs.
 - Created reusable SQL Views for business reporting.
-- Combined Subqueries, CTEs and Views into integrated analytical solutions.
+- Combined subqueries, CTEs and Views into integrated analytical solutions.
 - Improved SQL readability, maintainability and reusability through modular query design.
+
+---
+
+### Phase 7 – SQL Window Functions
+
+This phase introduced advanced SQL window functions used extensively in modern analytics, reporting and business intelligence.
+
+Major outcomes included:
+
+- Applied `ROW_NUMBER()` for sequential record numbering.
+- Compared `RANK()` and `DENSE_RANK()` for business ranking scenarios.
+- Used `NTILE()` for customer, seller and revenue segmentation.
+- Analysed historical events using `LAG()`.
+- Analysed future sequential events using `LEAD()`.
+- Calculated cumulative metrics using running totals.
+- Produced rolling metrics using moving averages.
+- Applied `FIRST_VALUE()` and `LAST_VALUE()` for customer lifecycle analysis.
+- Implemented advanced window frames for accurate analytical reporting.
+- Produced six portfolio-ready investigations demonstrating real-world applications of SQL window functions.
 
 ---
 
 ## 🔄 Current Phase
 
-**Phase 7 – SQL Window Functions**
+**Phase 8 – Advanced Business Analytics**
 
 Upcoming topics include:
 
-- ROW_NUMBER()
-- RANK()
-- DENSE_RANK()
-- NTILE()
-- LEAD()
-- LAG()
-- Running Totals
-- Moving Averages
-- Advanced Business Analytics
+- Customer Lifetime Value (CLV)
+- RFM Segmentation
+- Customer Behaviour Analytics
+- Advanced Business KPIs
+- Executive Dashboard Development
 
 ---
 
@@ -257,7 +308,7 @@ Upcoming topics include:
 - ✅ Phase 4 – Aggregate SQL Analysis
 - ✅ Phase 5 – Relational SQL Analysis
 - ✅ Phase 6 – Advanced SQL Techniques
-- 🚧 Phase 7 – Window Functions
-- Phase 8 – Advanced Business Analytics
-- Phase 9 – Executive Reporting & Business Recommendations
-- Phase 10 – Portfolio Refinement & Interview Preparation
+- ✅ Phase 7 – SQL Window Functions
+- 🚧 Phase 8 – Advanced Business Analytics
+- ⏳ Phase 9 – Executive Reporting & Business Recommendations
+- ⏳ Phase 10 – Portfolio Refinement & Interview Preparation

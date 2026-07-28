@@ -4,6 +4,30 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.6.0] - 2026-07-28
+
+### Added
+
+- Completed Phase 7: SQL Window Functions.
+- Added Investigation 28 – Introduction to Window Functions (`OVER()`, `PARTITION BY` & `ROW_NUMBER()`).
+- Added Investigation 29 – Ranking Functions (`RANK()` & `DENSE_RANK()`).
+- Added Investigation 30 – Data Segmentation with `NTILE()`.
+- Added Investigation 31 – Historical Analysis using `LAG()`.
+- Added Investigation 32 – Forward-Looking Analysis using `LEAD()`.
+- Added Investigation 33 – Advanced Window Functions (`FIRST_VALUE()`, `LAST_VALUE()`, Running Totals & Moving Averages).
+- Added professionally documented SQL scripts for all Phase 7 investigations.
+- Added comprehensive business intelligence reports for every investigation, including executive summaries, business objectives, SQL techniques, findings, analyst reflections, business recommendations and conclusions.
+- Introduced advanced analytical reporting using SQL window functions for ranking, segmentation, sequential analysis and cumulative calculations.
+
+### Changed
+
+- Updated README to reflect completion of Phase 7.
+- Expanded repository documentation to include advanced analytical SQL techniques based on Window Functions.
+- Improved SQL scripts with consistent naming conventions, enhanced inline documentation and business-focused commentary.
+- Standardised SQL script numbering to align with repository conventions while maintaining investigation numbering throughout the project.
+- Strengthened the project's analytical workflow by incorporating ranking analysis, customer segmentation, sequential event analysis, cumulative metrics and moving-average reporting commonly used in Business Intelligence.
+
+
 ## [0.5.0] - 2026-07-27
 
 ### Added
