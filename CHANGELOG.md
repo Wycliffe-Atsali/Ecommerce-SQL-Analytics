@@ -12,36 +12,26 @@ All notable changes to this project will be documented in this file.
 - Added Investigation 43 – Executive Summary.
 - Added Investigation 44 – Project Reflection & Analytical Insights.
 - Added Investigation 45 – Business Recommendations.
-- Added **SQL File 37**, supporting the Phase 9 analytical workflow.
+- Added **SQL File 37** supporting the Phase 9 analytical workflow.
 - Added professionally documented Markdown reports for all Phase 9 investigations.
 - Added executive-level synthesis of findings developed throughout Phases 3–8.
 - Added consolidated project reflection covering analytical progression, major insights, methodological strengths and limitations.
 - Added evidence-based business recommendations translating validated analytical findings into management actions.
 - Added the **Retain → Improve → Expand** strategic recommendation framework.
-- Added customer re-engagement and retention recommendations based on observed repeat-purchase behaviour.
-- Added delivery-performance improvement recommendations focused on the long delivery tail.
-- Added targeted seller-performance intervention recommendations.
-- Added recommendations for protecting and developing strong-performing sellers.
-- Added opportunity-validation recommendations for sellers, categories and geographic regions.
 - Added recommendation prioritisation based on business evidence, expected impact and analytical confidence.
-- Added explicit measurement principles for evaluating future interventions using baselines, controlled tests or pilots where feasible.
 
 ### Changed
 
 - Updated `README.md` to reflect completion of Phase 9.
-- Updated the total project investigation count from **42 to 45 completed investigations**.
+- Updated the project investigation count from **42 to 45 completed investigations**.
 - Added Investigations 43–45 to the project progress table.
 - Updated the project from **8 to 9 completed analytical phases**.
 - Updated the project roadmap so Phase 9 is marked as completed.
-- Updated the next project stage to Phase 10 – Portfolio Refinement & Interview Preparation.
-- Added the Phase 9 analytical methodology and outcomes to the project documentation.
-- Expanded the README to document the relationship between investigations and SQL files.
+- Added Phase 9 analytical methodology and outcomes to the project documentation.
 - Clarified that SQL files and investigations are **not one-to-one**.
 - Documented that Investigations 1–7 share SQL File 1.
 - Documented that Phase 9 Investigations 43–45 share SQL File 37.
-- Updated the README to reflect the complete project structure of **45 investigations supported by 37 SQL files across 9 phases**.
-- Expanded the project narrative from analytical development toward executive communication and business decision support.
-- Added executive reporting and business recommendation capabilities to the demonstrated analytical skill set.
+- Updated the project structure to **45 investigations supported by 37 SQL files across 9 phases**.
 
 ### Analytical Improvements
 
@@ -49,10 +39,7 @@ All notable changes to this project will be documented in this file.
 - Connected customer behaviour, seller performance, delivery performance, customer satisfaction and revenue opportunity into a unified business narrative.
 - Distinguished historical evidence from forward-looking assumptions when developing recommendations.
 - Explicitly separated observational findings from causal claims.
-- Introduced controlled experimentation and baseline comparison as recommended methods for validating future interventions.
 - Strengthened prioritisation of recommendations according to evidence, business impact and implementation considerations.
-- Applied a structured **Retain → Improve → Expand** framework to translate analytical findings into strategic priorities.
-- Incorporated operational readiness and incremental economics into opportunity-validation recommendations.
 - Strengthened the distinction between opportunity scores and revenue forecasts.
 - Added explicit consideration of analytical limitations when translating historical patterns into management actions.
 
@@ -61,14 +48,10 @@ All notable changes to this project will be documented in this file.
 - Added comprehensive Phase 9 investigation reports.
 - Added executive summary documentation consolidating the project's major findings.
 - Added project reflection documenting the progression from foundational SQL to strategic business analytics.
-- Added business recommendation documentation covering immediate, medium-term and long-term actions.
-- Added recommendation prioritisation and success metrics.
-- Added explicit limitations and measurement principles to the final recommendation framework.
-- Updated repository documentation to reflect the completion of the project's analytical and executive-reporting phases.
+- Added business recommendation documentation covering management actions, prioritisation and measurement considerations.
+- Updated repository documentation to reflect completion of Phase 9.
 
 ### Project Structure
-
-The completed project now follows the following investigation-to-SQL structure:
 
 | Phase | Investigations | SQL Files |
 |---|---:|---:|
@@ -81,17 +64,87 @@ The completed project now follows the following investigation-to-SQL structure:
 | Phase 9 | 43–45 | SQL File 37 |
 | **Total** | **45 investigations** | **37 SQL files** |
 
-The SQL architecture intentionally does not require a one-to-one relationship between investigations and SQL files. Where multiple investigations form part of a shared analytical workflow, they may use the same SQL file.
+### Project Status
+
+Phase 9 was officially **complete**.
+
+The next planned stage was:
+
+**Phase 10 – SQL Optimisation, Technical Interview Preparation & Project Retrospective**
+
+---
+
+## [0.9.0] - 2026-08-13
+
+### Added
+
+- Completed **Phase 10 – SQL Optimisation, Technical Interview Preparation & Project Retrospective**.
+- Added Investigation 46 – SQL Optimisation & Performance.
+- Added Investigation 47 – Technical Interview Preparation.
+- Added Investigation 48 – Project Retrospective.
+- Added **SQL File 38 – SQL Optimisation & Performance**.
+- Added professionally documented Markdown reports for all Phase 10 investigations.
+- Added SQL performance analysis using `EXPLAIN`, `EXPLAIN ANALYZE` and `BUFFERS`.
+- Added execution-plan interpretation and index evaluation.
+- Added technical SQL interview preparation covering the major concepts developed throughout the project.
+- Added a complete project retrospective covering technical growth, analytical development, methodology, limitations and lessons learned.
+
+### Changed
+
+- Updated `README.md` to reflect completion of Phase 10.
+- Updated the project investigation count from **45 to 48 completed investigations**.
+- Updated the SQL file count from **37 to 38 SQL files**.
+- Added Investigations 46–48 to the project progress table.
+- Updated the project from **9 to 10 completed core phases**.
+- Updated the project roadmap so Phase 10 is marked as completed.
+- Updated the repository structure to reflect **48 investigations supported by 38 SQL files across 10 completed phases**.
+- Clarified that Phase 10 adds only one new SQL analysis file because Investigations 47 and 48 are primarily documentation and reflection work.
+- Marked the **core project as officially complete** at the end of Phase 10.
+- Added a separate **Additional Phase** concept for optional post-completion portfolio refinement.
+
+### Analytical & Technical Improvements
+
+- Added performance-oriented SQL analysis to complement the project's functional SQL development.
+- Strengthened understanding of execution plans and the practical impact of indexing.
+- Connected query performance considerations with analytical query design.
+- Consolidated technical interview preparation across SQL fundamentals, relational analysis, advanced SQL, window functions, analytical grain, validation and performance.
+- Consolidated the project's major technical and analytical lessons into a final retrospective.
+- Strengthened the distinction between technically executable SQL and trustworthy analytical results.
+- Formalised the project's progression from SQL syntax learning toward analytical problem solving and business decision support.
+
+### Documentation
+
+- Added comprehensive Investigation 46 report covering SQL optimisation and performance.
+- Added comprehensive Investigation 47 report covering technical interview preparation.
+- Added comprehensive Investigation 48 report covering the project retrospective.
+- Updated repository documentation to reflect completion of the core project.
+- Added a clear separation between the completed core project and optional post-completion portfolio refinement.
+
+### Project Structure
+
+| Phase | Investigations | SQL Files |
+|---|---:|---:|
+| Phase 3 | 1–7 | SQL File 1 |
+| Phase 4 | 8–13 | SQL Files 2–7 |
+| Phase 5 | 14–22 | SQL Files 8–16 |
+| Phase 6 | 23–27 | SQL Files 17–21 |
+| Phase 7 | 28–33 | SQL Files 22–27 |
+| Phase 8 | 34–42 | SQL Files 28–36 |
+| Phase 9 | 43–45 | SQL File 37 |
+| Phase 10 | 46–48 | SQL File 38 |
+| **Total** | **48 investigations** | **38 SQL files** |
+
+The SQL architecture intentionally does not require a one-to-one relationship between investigations and SQL files. Phase 10 demonstrates this clearly: three investigations form the final technical/reflection phase, while only Investigation 46 requires a new SQL analysis script.
 
 ### Project Status
 
-Phase 9 is officially **complete**.
+**Phase 10 is officially COMPLETE. ✅**
 
-The project now contains:
+The core project now contains:
 
-- **45 completed business investigations**
-- **37 SQL analysis files**
-- **9 completed analytical phases**
+- **48 completed business investigations**
+- **38 SQL analysis files**
+- **10 completed project phases**
 - Database design and implementation
 - Data validation and quality analysis
 - Exploratory SQL analysis
@@ -110,12 +163,19 @@ The project now contains:
 - Executive KPI development
 - Executive business review
 - Executive reporting
-- Project reflection
 - Business recommendations
+- SQL optimisation and performance analysis
+- Technical interview preparation
+- Project retrospective
 
-The next planned stage is:
+The **core project is now complete**.
 
-**Phase 10 – Portfolio Refinement & Interview Preparation**
+A separate **Additional Phase** may be undertaken later for:
+
+- Technology documentation covering the tools and technologies used throughout the project.
+- Final repository/audit review covering structure, naming, documentation consistency and portfolio presentation.
+
+The Additional Phase is supplementary and does **not** change the completed total of 48 investigations or 10 core phases.
 
 ---
 
@@ -215,7 +275,7 @@ The next planned stage was:
 - Added Investigation 32 – Forward-Looking Analysis using `LEAD()`.
 - Added Investigation 33 – Advanced Window Functions (`FIRST_VALUE()`, `LAST_VALUE()`, Running Totals & Moving Averages).
 - Added professionally documented SQL scripts for all Phase 7 investigations.
-- Added comprehensive business intelligence reports for every investigation, including executive summaries, business objectives, SQL techniques, findings, analyst reflections, business recommendations and conclusions.
+- Added comprehensive business intelligence reports for every investigation.
 - Introduced advanced analytical reporting using SQL window functions for ranking, segmentation, sequential analysis and cumulative calculations.
 
 ### Changed

@@ -1,22 +1,47 @@
 # Retail SQL Business Analysis
 
-A comprehensive SQL portfolio project built using the **Brazilian E-Commerce Public Dataset (Olist)**. This project demonstrates progressive SQL development from database implementation and exploratory analysis to advanced analytical techniques, strategic business analytics, executive reporting and business recommendations used in real-world Business Intelligence and Data Analytics environments.
+A comprehensive SQL portfolio project built using the **Brazilian E-Commerce Public Dataset (Olist)**. This project demonstrates progressive SQL development from database implementation and exploratory analysis to advanced analytical techniques, strategic business analytics, executive reporting, business recommendations, performance optimisation, technical interview preparation, and project retrospective.
 
-The repository contains **45 completed business investigations**, supported by **37 SQL analysis files** and professionally documented Markdown investigation reports. The project demonstrates the progression from foundational SQL concepts and relational analysis to advanced SQL techniques, window functions, customer analytics, performance scorecards, opportunity modelling, executive reporting and strategic business recommendations.
+The repository contains **48 completed business investigations**, supported by **38 SQL analysis files** and professionally documented Markdown investigation reports.
 
-The SQL files are intentionally **not one-to-one with investigations**. Some investigations share a common SQL analysis file when they form part of the same analytical workflow. For example, Investigations 1–7 use SQL file 1, while the three Phase 9 investigations (43–45) are supported by SQL file 37.
+The SQL files are intentionally **not one-to-one with investigations**. Some investigations share a common SQL analysis file when they form part of the same analytical workflow. For example, Investigations 1–7 use SQL File 1, while Investigations 43–45 are supported by SQL File 37. Phase 10 adds one new SQL analysis file, SQL File 38, for Investigation 46.
 
 ---
 
 ## Project Status
 
-**Phase 9 – Executive Reporting & Business Recommendations — COMPLETED ✅**
+**Phase 10 – SQL Optimisation, Technical Interview Preparation & Project Retrospective — COMPLETED ✅**
 
-The core analytical development of the project is now complete through **Phase 9**, covering **45 business investigations across 9 phases**.
+The core analytical and technical development of the project is now complete through **Phase 10**, covering **48 completed investigations across 10 phases**.
 
-### ✅ Completed
+The project currently contains:
 
-#### Database & Infrastructure
+- **48 completed investigations**
+- **38 SQL analysis files**
+- **10 completed project phases**
+- Database design and PostgreSQL implementation
+- Data validation and exploratory analysis
+- Aggregate and relational SQL analysis
+- Advanced SQL techniques
+- Window function analysis
+- Strategic business analytics
+- Customer value and segmentation frameworks
+- Seller performance scorecards
+- Revenue opportunity modelling
+- Executive KPI development
+- Executive reporting
+- Business recommendations
+- SQL performance optimisation
+- Technical interview preparation
+- Project retrospective
+
+A separate **Additional Phase** may be completed later to document the technology stack and perform a final repository/audit review. This is supplementary portfolio refinement and is **not part of the 48 core investigations or the 10 completed project phases**.
+
+---
+
+## Completed Phases
+
+### Database & Infrastructure
 
 - Database design and normalization
 - PostgreSQL schema implementation
@@ -26,7 +51,7 @@ The core analytical development of the project is now complete through **Phase 9
 - Schema documentation
 - Schema refinement following implementation findings
 
-#### Phase 3 – Exploratory SQL Analysis
+### Phase 3 – Exploratory SQL Analysis
 
 - Investigation 1 – Orders
 - Investigation 2 – Customers
@@ -38,7 +63,7 @@ The core analytical development of the project is now complete through **Phase 9
 
 **SQL coverage:** SQL File 1
 
-#### Phase 4 – Aggregate SQL Analysis
+### Phase 4 – Aggregate SQL Analysis
 
 - Investigation 8 – Payment Aggregation
 - Investigation 9 – Customer Aggregation
@@ -49,7 +74,7 @@ The core analytical development of the project is now complete through **Phase 9
 
 **SQL coverage:** SQL Files 2–7
 
-#### Phase 5 – Relational SQL Analysis
+### Phase 5 – Relational SQL Analysis
 
 - Investigation 14 – Customer Purchasing Behaviour
 - Investigation 15 – Product Sales Performance
@@ -63,7 +88,7 @@ The core analytical development of the project is now complete through **Phase 9
 
 **SQL coverage:** SQL Files 8–16
 
-#### Phase 6 – Advanced SQL Techniques
+### Phase 6 – Advanced SQL Techniques
 
 - Investigation 23 – Subqueries Business Analysis
 - Investigation 24 – Common Table Expressions (CTEs)
@@ -73,7 +98,7 @@ The core analytical development of the project is now complete through **Phase 9
 
 **SQL coverage:** SQL Files 17–21
 
-#### Phase 7 – SQL Window Functions
+### Phase 7 – SQL Window Functions
 
 - Investigation 28 – ROW_NUMBER() Business Analysis
 - Investigation 29 – RANK() & DENSE_RANK() Business Analysis
@@ -84,7 +109,7 @@ The core analytical development of the project is now complete through **Phase 9
 
 **SQL coverage:** SQL Files 22–27
 
-#### Phase 8 – Advanced Business Analytics
+### Phase 8 – Advanced Business Analytics
 
 - Investigation 34 – Customer Lifetime Value (CLV)
 - Investigation 35 – RFM Customer Segmentation
@@ -98,7 +123,7 @@ The core analytical development of the project is now complete through **Phase 9
 
 **SQL coverage:** SQL Files 28–36
 
-#### Phase 9 – Executive Reporting & Business Recommendations
+### Phase 9 – Executive Reporting & Business Recommendations
 
 - Investigation 43 – Executive Summary
 - Investigation 44 – Project Reflection & Analytical Insights
@@ -106,7 +131,17 @@ The core analytical development of the project is now complete through **Phase 9
 
 **SQL coverage:** SQL File 37
 
-Phase 9 translated the analytical work developed throughout Phases 3–8 into executive-level communication, reflection and actionable business recommendations.
+Phase 9 translated the strategic analytical work developed throughout the project into executive-level communication, reflection, and actionable business recommendations.
+
+### Phase 10 – SQL Optimisation, Technical Interview Preparation & Project Retrospective
+
+- Investigation 46 – SQL Optimisation & Performance
+- Investigation 47 – Technical Interview Preparation
+- Investigation 48 – Project Retrospective
+
+**SQL coverage:** SQL File 38
+
+Phase 10 represents the final core phase of the project. It focuses on validating technical SQL performance knowledge, consolidating interview readiness, and reflecting on the analytical and technical growth achieved throughout the project.
 
 ---
 
@@ -159,12 +194,15 @@ Phase 9 translated the analytical work developed throughout Phases 3–8 into ex
 | Phase 9 | Investigation 43 – Executive Summary | ✅ |
 | Phase 9 | Investigation 44 – Project Reflection & Analytical Insights | ✅ |
 | Phase 9 | Investigation 45 – Business Recommendations | ✅ |
+| Phase 10 | Investigation 46 – SQL Optimisation & Performance | ✅ |
+| Phase 10 | Investigation 47 – Technical Interview Preparation | ✅ |
+| Phase 10 | Investigation 48 – Project Retrospective | ✅ |
 
-### SQL File Structure
+---
 
-The repository contains **37 SQL files supporting 45 investigations**.
+## SQL File Structure
 
-The relationship between investigations and SQL files is intentionally not one-to-one:
+The repository contains **38 SQL files supporting 48 investigations**.
 
 | Phase | Investigations | SQL Files |
 |---|---:|---:|
@@ -175,9 +213,10 @@ The relationship between investigations and SQL files is intentionally not one-t
 | Phase 7 | 28–33 | SQL Files 22–27 |
 | Phase 8 | 34–42 | SQL Files 28–36 |
 | Phase 9 | 43–45 | SQL File 37 |
-| **Total** | **45 investigations** | **37 SQL files** |
+| Phase 10 | 46–48 | SQL File 38 |
+| **Total** | **48 investigations** | **38 SQL files** |
 
-This structure reflects the analytical workflow rather than forcing every investigation into a separate SQL script.
+The structure reflects the analytical workflow rather than forcing every investigation into a separate SQL script.
 
 ---
 
@@ -293,6 +332,19 @@ This structure reflects the analytical workflow rather than forcing every invest
 - Strategic Recommendation Frameworks
 - Retain → Improve → Expand Framework
 - Translating Analytical Findings into Management Actions
+
+## SQL Performance & Technical Readiness
+
+- `EXPLAIN`
+- `EXPLAIN ANALYZE`
+- `BUFFERS`
+- Query execution plan interpretation
+- Index evaluation
+- Query performance comparison
+- SQL optimisation reasoning
+- Performance troubleshooting
+- Technical SQL interview preparation
+- Explaining SQL concepts in business and technical contexts
 
 ---
 
@@ -450,44 +502,19 @@ Phase 8 concluded with a consolidated executive business review layer that combi
 - Executive KPIs
 - Growth opportunity indicators
 
-The result is a portfolio-ready demonstration of how SQL can support not only data retrieval, but also **business performance measurement, prioritisation and executive decision support**.
-
 ---
 
 # Phase 9 – Executive Reporting & Business Recommendations
 
 Phase 9 marked the transition from **strategic analytical development to executive communication and decision support**.
 
-The purpose of this phase was to consolidate the findings generated throughout the project, critically reflect on the analytical journey, and translate validated evidence into practical business recommendations.
-
 ### Investigation 43 – Executive Summary
 
 Consolidated the major findings from the preceding analytical phases into an executive-level view of marketplace performance.
 
-The investigation focused on:
-
-- Marketplace revenue and business health
-- Customer behaviour and customer value
-- Seller performance
-- Delivery and customer experience
-- Revenue opportunity
-- Strategic priorities
-- Key business risks and limitations
-
 ### Investigation 44 – Project Reflection & Analytical Insights
 
 Reflected on the analytical progression of the project and identified the most important insights generated across the full investigation portfolio.
-
-The investigation examined:
-
-- Evolution from foundational SQL to strategic analytics
-- Major analytical findings
-- Cross-investigation relationships
-- Methodological strengths
-- Analytical limitations
-- Lessons learned
-- Areas where further data would strengthen decision-making
-- Development from SQL execution toward business analysis
 
 ### Investigation 45 – Business Recommendations
 
@@ -497,43 +524,92 @@ The central recommendation narrative became:
 
 **RETAIN → IMPROVE → EXPAND**
 
-**RETAIN**
-
-Strengthen repeat purchasing and preserve strong-performing sellers.
-
-**IMPROVE**
-
-Address delivery delays, targeted seller weaknesses and operational constraints that can undermine customer experience.
-
-**EXPAND**
-
-Selectively invest in validated sellers, categories and regions only after demand, operational readiness and commercial potential have been sufficiently tested.
-
-The recommendations were deliberately framed as **observational and evidence-based rather than causal claims**. Historical SQL analysis identifies patterns and priorities, but proposed interventions should be validated through appropriate experimentation, baselines or controlled pilots.
+The recommendations were deliberately framed as observational and evidence-based rather than causal claims.
 
 ### Phase 9 Outcome
 
-Phase 9 transformed the project from a collection of analytical investigations into a coherent business narrative.
-
-The final analytical workflow became:
+Phase 9 transformed the project from a collection of analytical investigations into a coherent business narrative:
 
 **DATA → SQL ANALYSIS → METRICS → FINDINGS → INSIGHTS → PRIORITIES → RECOMMENDATIONS**
 
-This represents the project's progression from technical SQL development toward practical Business Intelligence and business decision support.
+---
+
+# Phase 10 – SQL Optimisation, Technical Interview Preparation & Project Retrospective
+
+Phase 10 represents the **final core phase of the project**.
+
+It deliberately moves beyond adding new business domains and instead validates the technical depth, professional readiness and overall learning achieved through the project.
+
+### Investigation 46 – SQL Optimisation & Performance
+
+Focused on query performance and execution behaviour using PostgreSQL performance-analysis techniques.
+
+Key areas included:
+
+- `EXPLAIN`
+- `EXPLAIN ANALYZE`
+- `BUFFERS`
+- Execution-plan interpretation
+- Index evaluation
+- Query performance comparison
+- Understanding when indexes help or do not help
+- Performance-oriented SQL reasoning
+
+### Investigation 47 – Technical Interview Preparation
+
+Consolidated the SQL and analytical concepts developed throughout the project into technical interview preparation.
+
+The investigation focused on the ability to explain and reason about:
+
+- SQL fundamentals
+- Joins
+- Aggregation
+- CTEs
+- Subqueries
+- Views
+- Window functions
+- Analytical grain
+- Data-quality considerations
+- Query correctness
+- Performance
+- Business-oriented SQL problem solving
+
+### Investigation 48 – Project Retrospective
+
+Reviewed the complete project journey from foundational SQL through strategic business analytics and executive communication.
+
+The retrospective addressed:
+
+- SQL learning and growth
+- Major technical lessons
+- Major analytical/business lessons
+- Mistakes and misconceptions
+- Difficulties and how they were overcome
+- Evolution of analytical methodology
+- Business analysis capabilities
+- Dataset limitations
+- Future analytical opportunities
+- Lessons that would be applied to a new project
+
+### Phase 10 Outcome
+
+Phase 10 closes the core project by connecting:
+
+**TECHNICAL SQL DEVELOPMENT → ANALYTICAL REASONING → BUSINESS COMMUNICATION → PROFESSIONAL READINESS**
+
+The project is therefore considered **complete at the end of Phase 10**.
 
 ---
 
-# Current Phase
+# Current Project Status
 
-**Phase 9 – Executive Reporting & Business Recommendations — COMPLETED ✅**
+**Phase 10 – SQL Optimisation, Technical Interview Preparation & Project Retrospective — COMPLETED ✅**
 
-Phase 9 is complete with **Investigations 43–45**, supported by **SQL File 37**.
+The completed core project contains:
 
-The project now contains:
-
-- **45 completed business investigations**
-- **37 SQL analysis files**
-- **9 completed analytical phases**
+- **48 completed investigations**
+- **38 SQL analysis files**
+- **10 completed phases**
 - Database implementation and validation
 - Exploratory analysis
 - Aggregate analysis
@@ -547,22 +623,26 @@ The project now contains:
 - Executive KPI development
 - Executive reporting
 - Business recommendations
-- Project reflection and analytical insights
+- SQL optimisation
+- Technical interview preparation
+- Project retrospective
+
+### Core Project Status: COMPLETE ✅
 
 ---
 
-# Project Roadmap
+# Additional Phase
 
-- ✅ Phase 1 – Database Design
-- ✅ Phase 2 – PostgreSQL Implementation
-- ✅ Phase 3 – Exploratory SQL Analysis
-- ✅ Phase 4 – Aggregate SQL Analysis
-- ✅ Phase 5 – Relational SQL Analysis
-- ✅ Phase 6 – Advanced SQL Techniques
-- ✅ Phase 7 – SQL Window Functions
-- ✅ Phase 8 – Advanced Business Analytics
-- ✅ Phase 9 – Executive Reporting & Business Recommendations
-- ⏳ Phase 10 – Portfolio Refinement & Interview Preparation
+After completion of the core project, an optional **Additional Phase** may be used for final portfolio refinement.
+
+This phase is deliberately kept separate from the core project and does **not** change the 48-investigation or 10-phase totals.
+
+Potential Additional Phase work includes:
+
+- **Technology Documentation** – a dedicated document explaining the technologies used in the project, their roles, and how the technology stack could be extended into future analytics work.
+- **Repository Audit** – a final quality-control review of the repository structure, naming, documentation, SQL/report alignment, consistency, and portfolio presentation.
+
+The Additional Phase is supplementary and does not represent additional business investigations.
 
 ---
 
@@ -592,12 +672,14 @@ The final objective of the project is to demonstrate the ability to:
 6. Apply advanced SQL techniques to realistic business questions.
 7. Develop customer, seller and operational performance frameworks.
 8. Standardise and score business metrics.
-9. Translate analytical outputs into business findings.
-10. Communicate recommendations in an executive-friendly format.
-11. Critically evaluate analytical limitations and assumptions.
-12. Translate historical analysis into evidence-based business priorities.
+9. Analyse query performance and execution behaviour.
+10. Translate analytical outputs into business findings.
+11. Communicate recommendations in an executive-friendly format.
+12. Critically evaluate analytical limitations and assumptions.
+13. Prepare to explain technical SQL decisions in an interview environment.
+14. Reflect critically on the development of analytical and technical capability.
 
-The project is therefore designed to demonstrate the progression from:
+The project demonstrates the progression from:
 
 **SQL Learner → SQL Analyst → Business Data Analyst → Business Intelligence Practitioner**
 
