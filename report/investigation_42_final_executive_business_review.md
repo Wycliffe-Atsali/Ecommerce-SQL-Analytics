@@ -1,4 +1,4 @@
-# Investigation 41 — Final Executive Business Review
+# Investigation 42 — Final Executive Business Review
 
 ## 1. Investigation Overview
 
@@ -374,8 +374,8 @@ The final dataset should support business judgement rather than replace it.
 
 ## 13. Deliverables
 
-- `41_final_executive_business_review.sql` — consolidated Q1–Q25 SQL layer with authoritative views defined once and corrected downstream dependencies.
-- `41_final_executive_business_review.md` — methodology, question map, scoring framework, interpretation, limitations, and validation documentation.
+- `42_final_executive_business_review.sql` — consolidated Q1–Q25 SQL layer with authoritative views defined once and corrected downstream dependencies.
+- `42_final_executive_business_review.md` — methodology, question map, scoring framework, interpretation, limitations, and validation documentation.
 
 ---
 
